@@ -1,0 +1,53 @@
+@import url("banner.css");
+@import url("buttons.css");
+@import url("cards.css");
+@import url("footer.css");
+@import url("location.css");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Anybody:wght@300&family=Cinzel:wght@500&family=Lato:wght@300&family=Libre+Baskerville&family=Lobster&family=Merriweather:ital,wght@1,300&family=Nunito:wght@300&family=Open+Sans&family=PT+Serif&family=Poppins&display=swap");
+
+h1{
+	font-family: 'Alumni Sans Inline One', cursive;
+	font-size: 70px;
+	color:black;
+
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	font-weight: bold;
+}
+
+h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+	
+body{
+	margin:0;
+	background-color: #F8FDFF;
+	}	
+
+
+a{
+	text-decoration:none;
+}
+
+.location{
+	font-family: 'Merriweather', serif;
+}
+
+.carousel-item{
+	margin-top: 300px;
+}
+
+@media (min-width: 576px) {
+	.nav{
+		background-position: center;
+	}
+
+@media (min-width: 768px) {
+.nav{
+background-position: center;
+}

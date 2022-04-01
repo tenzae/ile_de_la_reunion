@@ -1,0 +1,56 @@
+.destination{
+	height: 25vh;
+	background-color:#F8FDFF;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+
+.banner{
+	height: 30vh;
+	background-image: url("../images/banner.jpeg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin:18px;
+}
+
+.banner-fixed{
+	height: 40vh;
+	background-image: url("../images/banner2.jpeg");
+	margin:18px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+@media (min-width: 576px) {
+	.banner{
+		background-position: center;
+	}
+
+@media (min-width: 768px) {
+.banner {
+background-position: center;
+}
+
+@media (min-width: 576px) {
+	.banner2{
+		background-position: center;
+	}
+
+@media (min-width: 768px) {
+.banner2{
+background-position: center;
+}

@@ -1,0 +1,33 @@
+.list-inline li {
+display: inline;
+}
+.list-inline{
+padding: 0px
+}
+.list-inline a{
+font-size: 48px;
+color: white;
+}
+.list-inline a:hover {
+color: black;
+}
+.list-inline i:hover {
+transform: rotate(360deg);
+transition: 1s;
+}
+.list-inline i{
+padding: 0px;
+margin: 8px;
+}
+
+.footer{
+margin: 18px;
+background-color: #0C83B1;
+text-align: center;
+}
+
+
+.footer p{
+text-align: center;
+color: white;
+}

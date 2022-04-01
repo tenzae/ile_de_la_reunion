@@ -1,0 +1,12 @@
+.location{
+	text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+@media (min-width: 768px) {
+.location{
+background-position: center;
+}
